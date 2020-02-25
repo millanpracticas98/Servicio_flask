@@ -33,3 +33,6 @@ flask run     y si queremos recibir peticiones de otros ordenadores flask run --
 
 Si da el siguiente error(ModuleNotFoundError: No module named 'flask_wtf'):
     pip install flask-wtf
+
+
+https://j2logo.com/tutorial-flask-espanol/
