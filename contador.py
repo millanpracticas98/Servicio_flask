@@ -1,4 +1,4 @@
-import json
+
 
 class contador(object):
     def __init__(self, caracter = None):
@@ -13,7 +13,7 @@ class contador(object):
                 "idioma": idioma,
                 "texto": texto
             }
-            return json.dumps(dev)
+            return dev
         else:
             np = 0
             for aux in texto.split(" "):
@@ -23,4 +23,4 @@ class contador(object):
                     "idioma": idioma,
                     "texto": texto
                 }
-            return json.dumps(dev)
+            return dev
